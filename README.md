@@ -1,4 +1,5 @@
 # AndroidStudio_VoiceRecorder
-# I created this project using Android Studio and Java. It's a simple project but very useful. I used MediaRecorder library to create an request in the manifest for the user permission.
+# It's a simple project but very useful. You have 3 buttons, one for recording, another one for stop recording and a third button which plays the recorded sound.
+# I used MediaRecorder library and created a user permission request for the microphone access in the manifest.
 # Software used: Android Studio IDE.
 # Programming Language: Java.
