@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/mico_icon"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logo" />
+
+    <Button
+        android:id="@+id/grabar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="180dp"
+        android:text="Grabar"
+        android:textSize="23dp"
+        android:onClick="btnRecordPressed"/>
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="180dp"
+        android:onClick="btnStopPressed"
+        android:text="Detener"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/reproducir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grabar"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:text="Reproducir"
+        android:onClick="btnPlayPressed"
+        android:textSize="23dp" />
+
+
+</RelativeLayout>
